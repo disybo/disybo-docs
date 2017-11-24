@@ -1,6 +1,6 @@
 ## Vehicles
 
-**Basic Statistics **
+**Basic Statistics**
 
 - Number of vehicles
 
@@ -26,24 +26,31 @@
 
 #### Individual vehicles
 
-For individual vehicles we may want to check how often 
+For individual vehicles we may want to check how often...
+
+
+
+
 
 ## Fuel Stations 
 
 
 
-**Filter mechanics **
+**Filter mechanics**
 
 - By fuel station
 
 
 
-**Possible graphs/charts we want to display ** 
+**Possible graphs/charts we want to display** 
 
 - How much fuel is extracted from each station yearly/monthly/daily
+
 - Comparison between how much fuel is added to fuel stations vs. how much is extracted
+
 - What kind of fuel is being extracted from each station and how much of each kind
-- ​
+
+  ​
 
 
 
