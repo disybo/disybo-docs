@@ -40,3 +40,15 @@
   - Check how much fuel is refuled for each station ( refueling the big tanks on the stations )
   - Compare that amount to the fuel that has been extracted from the tank
   - Try to detect if there's any difference ( maybe somebody stole some fuel? )
+- Using three different datasets
+  - SAP order data (information about fuel stations)
+    - We will get that through excel sheets
+  - Dataset about where cars are refueling
+    - Postman
+  - Dataset about what each car is consuming
+    - Postman
+- Check how much each car type is polluting
+  - Do some research on Wikipedia for example about how each car pollutes per mile for example
+  - Compare that to how much each car has driven
+- Compare fuel consumption between drivers/car types on similar routes
+- ​
