@@ -2,4 +2,7 @@ GET   /vehicles/   "Return detailed information about all of Stara's vehicles in
 registration number(if we have it), last known km count, warninglevel(if it is close to maintenence based on curren km count) 
 vehicle name. List of vehicle objects"
 
-GET /vehicles/pollution "Return list of car types and their pollution"
+GET /vehicles/ 
+
+GET /vehicles/pollution "Return list of car types and their pollution" 
+ * [{type: Wille 300, pollution: 5000},...]
