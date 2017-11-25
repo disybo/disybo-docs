@@ -1,8 +1,9 @@
-GET   /vehicles/   "Return detailed information about all of Stara's vehicles including vehicle type, 
+GET   /api/vehicles/   "Return detailed information about all of Stara's vehicles including vehicle type, 
 registration number(if we have it), last known km count, warninglevel(if it is close to maintenence based on curren km count) 
 vehicle name. List of vehicle objects"
 
-GET /vehicles/ 
+GET /api/vehicles/fuel "Get fuel usage for each type of car"
+ * [{type: Wille 300, data [{date: 2015, amount 1000}]}]
 
-GET /vehicles/pollution "Return list of car types and their pollution" 
+GET /api/vehicles/pollution "Return list of car types and their pollution" 
  * [{type: Wille 300, pollution: 5000},...]
