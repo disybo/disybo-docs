@@ -1,4 +1,7 @@
-GET   /api/vehicles/maintenence   "Return detailed information about all of Stara's vehicles including vehicle type, 
+GET /api/vehicles/ "Return list of all vehicles in the system"
+* [{name: vehicle_name, type: truck, year: 2013}, ...]
+
+GET /api/vehicles/maintenence   "Return detailed information about all of Stara's vehicles including vehicle type, 
 registration number(if we have it), last known km count, warninglevel(if it is close to maintenence based on curren km count) 
 vehicle name. List of vehicle objects - top 10"
 * [{name: car_name_1, progress: 88}, ...]
@@ -14,6 +17,9 @@ GET /api/vehicles/pollution "Return list of car types and their pollution"
 
 
 ---------------------------
+
+GET /api/stations/ "Return list of all stations in the system"
+* [{name: station1, ??}, ...]
 
 GET /api/stations/fuel/inout "Comparing incoming and outgoing fuel"
  * [{name: station1, incoming: 100, outgoing: 80}, ...]
