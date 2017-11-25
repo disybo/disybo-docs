@@ -14,7 +14,11 @@ GET /api/vehicles/fuel/ratio "Get average fuel usage for each type of car liters
 
 GET /api/vehicles/pollution "Return list of car types and their pollution" 
  * [{type: Wille 300, pollution: 5000},...]
-
+ 
+ 
+---------------------------
+GET /api/vehicles/:id: "Get data about vehicle with id: current location" 
+ * {name: "vehicle name", lat: 25.123, long: 13.124]}
 
 ---------------------------
 
