@@ -7,3 +7,12 @@ GET /api/vehicles/fuel "Get fuel usage for each type of car"
 
 GET /api/vehicles/pollution "Return list of car types and their pollution" 
  * [{type: Wille 300, pollution: 5000},...]
+
+
+---------------------------
+
+GET /api/stations/fuel/inout "Comparing incoming and outgoing fuel"
+ * [{name: station1, incoming: 100, outgoing: 80}, ...]
+ 
+GET /api/stations/fuel/types "comparing extracted amount of different types of fuels"+
+ * [{name: station1, petrol: 100, diesel: 80, adblue: 60, oil: 30 }, ...]
