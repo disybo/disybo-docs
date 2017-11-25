@@ -1,0 +1,2 @@
+GET   /api/vehicles   "Return detailed information about all of Stara's vehicles including vehicle type, 
+registration number(if we have it), last known km count", vehicle name.
