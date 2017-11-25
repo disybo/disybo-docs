@@ -1,6 +1,7 @@
-GET   /api/vehicles/   "Return detailed information about all of Stara's vehicles including vehicle type, 
+GET   /api/vehicles/maintenence   "Return detailed information about all of Stara's vehicles including vehicle type, 
 registration number(if we have it), last known km count, warninglevel(if it is close to maintenence based on curren km count) 
-vehicle name. List of vehicle objects"
+vehicle name. List of vehicle objects - top 10"
+* [{name: car_name_1, progress: 88}, ...]
 
 GET /api/vehicles/fuel/ratio "Get average fuel usage for each type of car liters per km"
  * [{type: Wille 300, amount: 10}, ..]
