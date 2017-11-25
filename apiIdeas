@@ -2,8 +2,11 @@ GET   /api/vehicles/   "Return detailed information about all of Stara's vehicle
 registration number(if we have it), last known km count, warninglevel(if it is close to maintenence based on curren km count) 
 vehicle name. List of vehicle objects"
 
-GET /api/vehicles/fuel "Get fuel usage for each type of car"
- * [{type: Wille 300, data [{date: 2015, amount 1000}, ...]}, ..]
+GET /api/vehicles/fuel/ratio "Get average fuel usage for each type of car liters per km"
+ * [{type: Wille 300, amount: 10}, ..]
+ 
+ GET /api/vehicles/fuel/consumption "Get fuel consumption for each type of car"
+ * [{type: Wille 300, data: [{date: 2015, amount 1000}, ...]}, ..]
 
 GET /api/vehicles/pollution "Return list of car types and their pollution" 
  * [{type: Wille 300, pollution: 5000},...]
@@ -18,4 +21,4 @@ GET /api/stations/fuel/types "comparing extracted amount of different types of f
  * [{name: station1, petrol: 100, diesel: 80, adblue: 60, oil: 30 }, ...]
 
 GET /api/stations/fuel/consumption "Get fuel usage for each station per year/day/etc"
-* [{station: station1, data [{date: 2015, amount 1000}, ...]}, ...]
+* [{station: station1, data: [{date: 2015, amount 1000}, ...]}, ...]
