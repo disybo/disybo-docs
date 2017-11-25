@@ -1,5 +1,5 @@
 GET /api/vehicles/ "Return list of all vehicles in the system"
-* [{name: vehicle_name, type: truck, year: 2013}, ...]
+* [{ id: unique_id, name: vehicle_name, type: truck, year: 2013}, ...]
 
 GET /api/vehicles/maintenence   "Return detailed information about all of Stara's vehicles including vehicle type, 
 registration number(if we have it), last known km count, warninglevel(if it is close to maintenence based on curren km count) 
